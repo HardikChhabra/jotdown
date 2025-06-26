@@ -1,6 +1,6 @@
 import { CreateNoteType, NoteType, UpdateNoteType } from "../types/note";
 
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL = "https://notes-api-liard-phi.vercel.app/";
 
 // Authentication API calls
 export const registerUser = async (userData: {
